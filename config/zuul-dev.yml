@@ -36,7 +36,7 @@ hystrix:
       execution:
         isolation:
           thread:
-            timeoutInMilliseconds: 500
+            timeoutInMilliseconds: 1000
 #enable包含了熔断
 management:
   endpoints:
